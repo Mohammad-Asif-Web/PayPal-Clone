@@ -1,0 +1,23 @@
+{
+  "name": "paypal-clone",
+  "version": "1.0.0",
+  "description": "A project to clone full website of paypal",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohammad-Asif-Web/PayPal-Clone.git"
+  },
+  "keywords": [
+    "paypal-clone",
+    "paypal-website"
+  ],
+  "author": "muhammad asif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohammad-Asif-Web/PayPal-Clone/issues"
+  },
+  "homepage": "https://github.com/Mohammad-Asif-Web/PayPal-Clone#readme"
+}

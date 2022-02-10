@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    font-family: "Baloo Da 2", cursive;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    font-size: 3.5rem;
+    font-style: italic;
+    font-weight: 800;
+    color: #fff;
+    position: relative;
+}
+.p-1{
+    font-size: 4.5rem;
+    margin-right: 1rem;
+    position: relative;
+    z-index: 10;
+}
+.p-2{
+    font-size: 4.5rem;
+    color: #bbb;
+    position: absolute;
+    top: 0.4rem;
+    left: 0.5rem;
+}
+
+

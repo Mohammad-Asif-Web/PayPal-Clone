@@ -15,3 +15,34 @@ dropDownItems.forEach(item =>{
         navBar.style.background = 'none'
     })
 }) 
+
+
+// Entering page section effect
+const logos = document.querySelectorAll('.logo');
+const login = document.querySelectorAll('.login')
+const signup = document.querySelectorAll('.signup')
+const frontPage = document.querySelector('.front-page')
+const loginPage = document.querySelector('.login-page')
+const signupPage = document.querySelector('.signup-page')
+
+logos.forEach(logo =>{
+    logo.addEventListener('click', ()=>{
+        frontPage.style.display = 'block'
+        loginPage.style.display = 'none'
+        signupPage.style.display = 'none'
+    })
+})
+login.forEach(loginBtn =>{
+    loginBtn.addEventListener('click', ()=>{
+        frontPage.style.display = 'none'
+        loginPage.style.display = 'block'
+        signupPage.style.display = 'none'
+    })
+})
+signup.forEach(signupBtn =>{
+    signupBtn.addEventListener('click', ()=>{
+        frontPage.style.display = 'none'
+        loginPage.style.display = 'none'
+        signupPage.style.display = 'flex'
+    })
+})

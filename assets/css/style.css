@@ -588,6 +588,9 @@ body{
     display: flex;
     margin: 1.5rem;
 }
+.input-group .option{
+    margin: -6px 0 0 10px
+}
 .option h3{
     font-size: 1.7rem;
     font-weight: 600;
@@ -595,7 +598,7 @@ body{
 .option p{
     font-size: 1.5rem;
 }
-/* SignUp Page End */
+/* S ignUp Page End */
 
 
 

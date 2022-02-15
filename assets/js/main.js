@@ -46,3 +46,15 @@ signup.forEach(signupBtn =>{
         signupPage.style.display = 'flex'
     })
 })
+
+// sidebar nav dropdown effect
+const menuIcon = document.querySelector('.menu')
+const sideNav = document.querySelector('.navbar')
+
+menuIcon.addEventListener('click',()=>{
+    sideNav.classList.toggle('change')
+})
+
+
+
+

@@ -98,14 +98,14 @@
     .menu{
         width: 11rem;
         height: 4rem;
-        /* background-color: #eee; */
         border-radius: 3rem;
         border: 0.1rem solid #fff;
         cursor: pointer;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-    
+        transition: transform 0.6s
+        cubic-bezier(1, 0, 0, 1) ;
     }
 
     /* side navbar css code for js effect */
@@ -118,6 +118,9 @@
     }
     .change .menu span{
         color: #555;
+    }
+    .change .nav-list{
+        left: 0;
     }
     .change .line-1{
         transform: rotate(45deg);
@@ -162,6 +165,7 @@
         flex-direction: column;
         padding-top: 2rem ;
         z-index: 200;
+        transition: left .6s cubic-bezier(1, 0, 0, 1);
     }
     .nav-dropdown-personal,
     .nav-dropdown-business{
@@ -173,6 +177,9 @@
     .nav-dropdown-item{
         width: 100%;
         margin: 1rem 1rem 0 1rem;
+    }
+    .dropdown-heading{
+        display: block;
     }
     .dropdown-heading a{
         font-size: 1.6rem;

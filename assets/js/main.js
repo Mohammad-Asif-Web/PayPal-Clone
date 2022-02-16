@@ -77,5 +77,10 @@ if(window.innerWidth < 1000){
 }) 
 }
 
+// window resize effect
+window.addEventListener('resize', ()=>{
+    window.location.reload()
+})
+
 
 
